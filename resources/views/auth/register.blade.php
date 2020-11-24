@@ -1,0 +1,1 @@
+@include("auth.auth_form", ['register_active' => 'active'])

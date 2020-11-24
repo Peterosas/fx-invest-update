@@ -1,0 +1,11 @@
+@if (Session::has("status_info"))
+            <div class = "notifier" style = "display:none"><span>{!! Session::get("status_info") !!}</span></div>
+        @endif
+        
+        @if(Session::has('error'))
+        <p class="alert alert-danger">{{ Session::get('error') }}</p>
+        @endif
+        
+        @if(Session::has('success'))
+        <p class="alert alert-success">{{ Session::get('success') }}</p>
+        @endif
