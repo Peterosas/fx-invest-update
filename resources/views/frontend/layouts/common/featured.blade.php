@@ -11,9 +11,9 @@
                 
                 @php ($roi_str = "")
                 
-                @if (count($packages) > 1)
+                @if ($packages->count() > 1)
                     @php ( $roi_str = $packages[0]->roi . '% - ' . $packages[count($packages) - 1]->roi . '%' )
-                @elseif (count($packages == 1))
+                @elseif ($packages->count() == 1)
                     @php ( $roi_str = $packages[0]->roi . '%' )
                 @endif
                 

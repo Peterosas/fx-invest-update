@@ -41,6 +41,10 @@ View::composer('*', function ($view) {
 
 });
 
+Route::get('maintenance', function() {
+    return view('backend.maintenance.index');
+});
+
 Route::get('refresh-csrf', function(){
     return csrf_token();
 });

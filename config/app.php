@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'maintenance_mode'=> env('MAINTENANCE_MODE', true),
 
     /*
     |--------------------------------------------------------------------------

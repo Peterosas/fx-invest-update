@@ -517,7 +517,7 @@ h3 {
 /* line 52, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn4 {
   display: inline-block;
-  padding: 11px 29px 13px 29px;
+  padding: 6px 12px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -1104,7 +1104,7 @@ h3 {
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 96, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
   .header-area .main-header-area .Appointment .boxed-btn4 {
-    padding: 11px 9px 13px 9px;
+    padding: 6px 9px;
     font-size: 13px;
   }
 }
@@ -1112,7 +1112,7 @@ h3 {
 @media (min-width: 1501px) and (max-width: 1800px) {
   /* line 96, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
   .header-area .main-header-area .Appointment .boxed-btn4 {
-    padding: 11px 20px 13px 20px;
+    padding: 6px 9px;
     font-size: 13px;
   }
 }
@@ -1149,28 +1149,27 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 154, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li {
-    margin: 0 14px;
+    margin: 0 10px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 154, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li {
-    margin: 0 14px;
+    margin: 0 10px;
   }
 }
 
 /* line 167, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #053c50;
-  font-size: .9rem;
+  font-size: .8rem;
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
-  padding: 35px 0px 35px 0px;
+  padding: 20px 0px 20px 0px;
   font-family: "Roboto", sans-serif;
   position: relative;
-
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
