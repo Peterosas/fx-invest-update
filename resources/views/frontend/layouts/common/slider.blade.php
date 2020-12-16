@@ -1,26 +1,13 @@
 <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 text-center">
-                        <div class="slider_text">
-                            <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".1s">
-                            <span
-                             class="txt-rotate"
-                             data-period="2000"
-                             data-rotate='[ "Start trading seamlessly right now ", "Invest now and cashout in no time." ]'>
-                            </span>
-                            </h3>
-                            <div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-                                <a href="{{ route('login') }}" class="boxed-btn2">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
+    <div class="hero-area">
+      <div class = "hero-inner">
+        <div class = "row">
+          <div class = "col-sm-8 offset-sm-2 text-center">
+            <h1 class = "title">Instant access to investing, anytime and anywhere</h1>
+            <h4 class = "sub-title">Investing has never been easier. Everything you are looking for in an ultimate investment platform — on the device of your choice.</h4>
+          </div>
         </div>
+      </div>
     </div>
     <!-- slider_area_end -->
 

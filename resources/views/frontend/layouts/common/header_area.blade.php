@@ -9,8 +9,7 @@
                                 <div class="logo">
                                     <a href="{{ route('home') }}">
                                         <img src="{{ asset('pages') }}/img/logo.png" alt="">
-                                        <br /><small>...Sure Way to Financial Freedom
-</small>
+                                        
                                     </a>
                                 </div>
                             </div>
@@ -30,12 +29,7 @@
                                             
                                             <li><a href="{{ route('faq') }}">FAQ</a></li>
                                             <li><a href="{{ route('contact') }}">Contact</a></li>
-                                            <li><a href="javascript::void(0)">Client Area <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="{{ route('login') }}">Login to Dashboard</a></li>
-                                                    <li><a href="{{ route('register') }}">Create An Account</a></li>
-                                                </ul>
-                                            </li>
+                                            
                                         </ul>
                                     </nav>
                                 </div>
@@ -43,7 +37,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                   <div class="d-none d-lg-block">
-                                      <a class="boxed-btn4" href="{{ route('register') }}">OPEN AN ACCOUNT</a>
+                                      <a class="boxed-btn4" href="{{ route('register') }}">Get Started</a>
                                   </div>
                                 </div>
                             </div>

@@ -78,8 +78,7 @@
                                 <input type="text" placeholder="Enter your mail">
                                 <button type="submit">Subscribe</button>
                             </form>
-                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -91,9 +90,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <!-- Link back to codewalker can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by <a href="https://codewalker.com" target="_blank">codewalker</a>
-<!-- Link back to codewalker can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by <a href="https://finegrid.com" target="_blank">FineGrid</a>
                         </p>
                     </div>
                 </div>
