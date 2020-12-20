@@ -422,18 +422,18 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #0855b4;
+  border: 1px solid #22293d;
   text-align: center;
-  color: #0855b4 !important;
+  color: #22293d !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 15, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #0855b4;
+  background: #22293d;
   color: #fff !important;
-  border: 1px solid #0855b4;
+  border: 1px solid #22293d;
 }
 
 /* line 20, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
@@ -444,7 +444,7 @@ h3 {
 /* line 24, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#F91842+0,fd8e5e+100 */
-  background: #ff8c0f;
+  background: #ff5a3e;
   color: #fff;
   display: inline-block;
   padding: 11px 29px 13px 29px;
@@ -468,8 +468,8 @@ h3 {
 
 /* line 43, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
-  color: #0855b4 !important;
-  border: 1px solid #0855b4;
+  color: #22293d !important;
+  border: 1px solid #22293d;
   background: transparent;
 }
 
@@ -533,18 +533,18 @@ h3 {
   transition: 0.3s;
   cursor: pointer;
   color: #fff !important;
-  border: 1px solid #ff8c0f;
-  background: #ff8c0f;
+  border: 1px solid #ff5a3e;
+  background: #ff5a3e;
 }
 
 /* line 67, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  color: #ff8c0f !important;
-  border: 1px solid #ff8c0f;
+  color: #ff5a3e !important;
+  border: 1px solid #ff5a3e;
   background: transparent;
   border: 0;
   background: #fff;
-  border: 1px solid #ff8c0f;
+  border: 1px solid #ff5a3e;
 }
 
 /* line 75, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
@@ -608,7 +608,7 @@ h3 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: #ff8c0f;
+  color: #ff5a3e;
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
@@ -619,7 +619,7 @@ h3 {
 
 /* line 125, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn2:hover {
-  background: #ff8c0f;
+  background: #ff5a3e;
   color: #fff !important;
 }
 
@@ -679,7 +679,7 @@ h3 {
 /* line 2, ../../Arafath/CL/December/234. Finance/HTML/scss/_section_title.scss */
 .section_title span {
   display: inline-block;
-  background: #0855b4;
+  background: #22293d;
   width: 60px;
   height: 3px;
   -webkit-border-radius: 2px;
@@ -700,7 +700,6 @@ h3 {
 
 .plan_bg h3 {
   font-weight: 500;
-  color: #fff;
   font-size: 40px;
 }
 
@@ -1084,7 +1083,7 @@ h3 {
 .header-area .main-header-area .Appointment .phone_num a {
   font-size: 14px;
   font-weight: 400;
-  color: #ff8c0f;
+  color: #ff5a3e;
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -1096,7 +1095,7 @@ h3 {
 
 /* line 89, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .phone_num a i {
-  color: #0855b4;
+  color: #22293d;
   font-size: 14px;
   margin-right: 7px;
 }
@@ -1207,7 +1206,7 @@ h3 {
 
 /* line 215, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #0855b4;
+  color: #22293d;
 }
 
 /* line 219, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
@@ -1332,7 +1331,7 @@ h3 {
 
 /* line 313, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .header-top_area .social_media_links a:hover {
-  color: #0855b4;
+  color: #22293d;
 }
 
 /* line 319, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
@@ -1377,7 +1376,7 @@ h3 {
 
 /* line 343, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #0855b4;
+  color: #22293d;
   margin-right: 7px;
 }
 
@@ -1409,319 +1408,37 @@ h3 {
   }
 }
 
-/* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_bg_1 {
-  background-image: url(../img/banner/banner.jpg);
-}
-
-/* line 4, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_bg_2 {
-  background-image: url(../img/banner/banner_2.png);
-}
-
-/* line 7, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area {
-  position: relative;
-  z-index: 0;
-}
-
-/* line 10, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area::before {
-  background: #0855b4;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  content: '';
-  opacity: .8;
-}
-
-/* line 20, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider {
+.hero-area {
+  background-color:rgb(23, 35, 49);
+  background-image: url(../img/banner/banner.webp);
   height: 700px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
-/* line 25, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider.single_listing {
-  height: 500px;
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #172331b7;
+  height: 100%;
+  padding: 2rem;
+  margin-left: 5rem;
+  text-shadow: rgb(23, 35, 49);
 }
 
-@media (max-width: 767px) {
-  /* line 20, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider {
-    height: auto;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 20, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider {
-    height: 700px;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 34, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text {
-    margin-top: 90px;
-    margin-bottom: 20px;
-  }
-}
-
-/* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 74px;
-  margin-bottom: 40px;
-  color: #fff;
-}
-
-@media (max-width: 767px) {
-  /* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    line-height: 45px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 34px;
-    line-height: 1.4;
-    margin-bottom: 35px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 40px;
-    line-height: 1.4;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 74px;
-  }
-}
-
-/* line 66, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text p {
+.hero-inner .title {
+  color: #d4e20c !important;
+  letter-spacing: 2px;
   font-size: 30px;
-  font-weight: 400;
-  color: #F91842;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 24px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  line-height: 2.5rem;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 66, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text p {
-    font-size: 16px;
-  }
+.hero-inner .sub-title {
+  font-size: 20px;
+  color: #ebebee;
 }
-
-@media (max-width: 767px) {
-  /* line 66, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text p {
-    font-size: 16px;
-  }
-}
-
-/* line 81, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text .button_search {
-  text-align: right;
-}
-
-@media (max-width: 767px) {
-  /* line 81, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text .button_search {
-    text-align: left;
-  }
-}
-
-/* line 87, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text .quality {
-  margin-top: 40px;
-}
-
-@media (max-width: 767px) {
-  /* line 87, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text .quality {
-    margin-top: 20px;
-  }
-}
-
-/* line 93, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text .quality ul li {
-  display: inline-block;
-}
-
-@media (max-width: 767px) {
-  /* line 93, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text .quality ul li {
-    margin-bottom: 10px;
-  }
-}
-
-/* line 98, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text .quality ul li button {
-  border: none;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  font-size: 14px;
-  color: #fff;
-  font-weight: #000;
-  font-family: "Roboto", sans-serif;
-  padding: 5px 19px;
-  display: inline-block;
-  margin: 0 3px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-/* line 111, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text .quality ul li button:hover {
-  background: #F91842;
-}
-
-/* line 120, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form {
-  padding: 50px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-@media (max-width: 767px) {
-  /* line 120, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form {
-    padding: 30px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 120, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form {
-    padding: 30px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 120, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form {
-    padding: 30px;
-  }
-}
-
-/* line 133, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form .single_input input {
-  height: 50px;
-  border: 1px solid #F0F0F0;
-  padding: 15px;
-  font-size: 16px;
-  color: #000;
-}
-
-/* line 139, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form .single_input input:focus {
-  outline: none;
-}
-
-/* line 142, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form .single_input input::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #193d4a;
-  font-family: "Roboto", sans-serif;
-}
-
-/* line 149, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form h4 {
-  font-size: 30px;
-  font-weight: 400;
-  color: #193d4a;
-  margin-bottom: 19px;
-}
-
-@media (max-width: 767px) {
-  /* line 149, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form h4 {
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 149, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form h4 {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 149, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form h4 {
-    font-size: 24px;
-  }
-}
-
-/* line 165, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #193d4a;
-  margin-bottom: 39px;
-  margin-top: 21px;
-}
-
-@media (max-width: 767px) {
-  /* line 165, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form p {
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 165, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-  .slider_area .payment_form p {
-    font-size: 14px;
-  }
-}
-
-/* line 179, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form .nice-select.wide {
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-  color: #193d4a;
-  margin-bottom: 15px;
-}
-
-/* line 188, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
-.slider_area .payment_form .submit_btn button {
-  width: 100%;
-  text-align: center;
-}
-
 /* line 195, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
 .gj-picker-md div[role="navigator"] {
   padding-left: 30px !important;
@@ -1769,7 +1486,7 @@ h3 {
 }
 
 a.site-name {
-  color: #0855b4 !important;
+  color: #22293d !important;
 }
 
 
@@ -2105,7 +1822,7 @@ a.site-name {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #0855b4;
+  background: #22293d;
   color: #fff;
   text-align: center;
   line-height: 58px;
@@ -2875,7 +2592,7 @@ p #amount {
 .footer .footer_top {
   padding-top: 80px;
   padding-bottom: 70px;
-  background-color: rgb(23, 35, 49);
+  background-color:#f4f5f7;
 }
 
 @media (max-width: 767px) {
@@ -2904,7 +2621,7 @@ p #amount {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 18px;
   font-weight: 500;
-  color: #ff8c0f;
+  color: #114ea1;
   text-transform: capitalize;
   margin-bottom: 40px;
   font-family: "Roboto", sans-serif;
@@ -2954,7 +2671,7 @@ p #amount {
 /* line 59, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
-  color: #ff8c0f;
+  color: #ff5a3e;
   margin-bottom: 23px;
   font-weight: 400;
   line-height: 28px;
@@ -2962,7 +2679,7 @@ p #amount {
 
 /* line 65, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
-  color: #ff8c0f;
+  color: #ff5a3e;
   font-weight: 400;
 }
 
@@ -2975,7 +2692,7 @@ p #amount {
 /* line 74, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a {
   font-weight: 500;
-  color: #ff8c0f;
+  color: #ff5a3e;
 }
 
 /* line 78, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
@@ -2991,14 +2708,14 @@ p #amount {
 
 /* line 90, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li {
-  color: #ff8c0f;
+  color: #ff5a3e;
   font-size: 13px;
   line-height: 42px;
 }
 
 /* line 94, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #f3f3f3;
+  color: #114ea1;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
@@ -3021,7 +2738,7 @@ p #amount {
   background: transparent;
   padding-left: 20px;
   font-size: 15px;
-  color: #ff8c0f;
+  color: #ff5a3e;
   border: none;
   border: 1px solid #E8E8E8;
   border-radius: 5px;
@@ -3031,7 +2748,7 @@ p #amount {
 /* line 118, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_form input::placeholder {
   font-size: 14px;
-  color: #ff8c0f;
+  color: #ff5a3e;
 }
 
 /* line 122, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
@@ -3292,7 +3009,7 @@ p #amount {
 /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_testmonial.scss */
 .testimonial_area {
   padding: 50px 0;
-  background-color: #0855b4;
+  background-color: #22293d;
 }
 
 @media (max-width: 767px) {
@@ -3341,7 +3058,7 @@ p #amount {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #0855b4;
+  background: #22293d;
   color: #fff;
   text-align: center;
   line-height: 58px;
@@ -3373,7 +3090,7 @@ p #amount {
 
 /* line 47, ../../Arafath/CL/December/234. Finance/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .info span {
-  color: #ff8c0f;
+  color: #ff5a3e;
   font-size: 16px;
   font-weight: 400;
   display: block;
@@ -3414,15 +3131,25 @@ p #amount {
   margin-top: 30px;
 }
 
-/* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_service.scss */
-.service_area {
-  background: #f3f3fe url(../img/backgrounds/bg.svg) no-repeat center center;
-}
 
 .plan_bg {
-  padding-top: 20px;
-  padding-bottom: 40px;
-  background-color: rgba(10, 180, 91, 0.79);
+  padding: 20px;
+  background-color: #282f4a;
+}
+
+.p-icon {
+  color: #50c757;
+}
+.p-title {
+  color: #50c757;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-description {
+  color: #aeb2be;
 }
 
 @media (max-width: 767px) {
@@ -3516,7 +3243,7 @@ p #amount {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  background: #0855b4;
+  background: #22293d;
 }
 
 /* line 68, ../../Arafath/CL/December/234. Finance/HTML/scss/_service.scss */
@@ -5318,7 +5045,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #0855b4 0%, #0855b4 99%);
+  background: -webkit-linear-gradient(131deg, #22293d 0%, #22293d 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5830,7 +5557,7 @@ h6 {
 
 /* line 545, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #0855b4;
+  color: #22293d;
 }
 
 /* line 550, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog.scss */
@@ -5898,7 +5625,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #0855b4;
+  background-color: #22293d;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -6126,7 +5853,7 @@ h6 {
 
 /* line 843, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #0855b4;
+  background: #22293d;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -6375,7 +6102,7 @@ h6 {
 
 /* line 1209, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #0855b4;
+  color: #22293d;
 }
 
 /* line 1214, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog.scss */
@@ -6805,7 +6532,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/December/234. Finance/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #0855b4;
+  color: #22293d;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6832,7 +6559,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #0855b4;
+  background-color: #22293d;
   border-radius: 50%;
 }
 
@@ -6969,7 +6696,7 @@ h6 {
 }
 
 .box-r {
-  border: 1px solid #ff8c0f;
+  border: 1px solid #ff5a3e;
   border-radius: 1em;
   padding: 1em;
   font-size: 18px !important;
