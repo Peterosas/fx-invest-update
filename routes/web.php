@@ -131,9 +131,15 @@ Route::name('admin.')->group(function () {
     Route::post('/admin/user/edit/{id}', 'AdminController@editUser')->name('user.edit');
     Route::get('/admin/user/delete/{id}', 'AdminController@deleteUser')->name('user.delete');
 
+    Route::get('/admin/payments', 'AdminController@get_payments')->name('payment.requests');
+    Route::get('/admin/payment/decline/{id}', 'AdminController@decline_payment')->name('payment.decline');
+    Route::get('/admin/payment/approve/{id}/{amount?}', 'AdminController@approve_payment')->name('payment.approve');
+
     Route::get('/admin/site-settings', 'AdminController@site_settings')->name('site.settings');
 
     Route::post('/admin/site-settings', 'AdminController@site_settings')->name('site.settings');
+
+    
 
 });
 

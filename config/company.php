@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Vantage Hub Forex',
+    'name' => 'WowFxPro',
     'currency' => [
         'name' => 'Dollar',
         'symbol' => '$',
@@ -22,8 +22,8 @@ return [
         'xPub2' => "null",
         'apikey' => '8b61b9c3-5e07-4a95-9ac1-bf7ca1fe2c81',
         'secret' => null,
-        'username' => 'payonline@vantagehubfx.com',
-        'username2' => 'payonline2@vantagehubfx.com',
+        'username' => 'payonline@wowfxpro.com',
+        'username2' => 'payonline2@wowfxpro.com',
         'password' => '!SLMAe6Z',
         'password2' => 'HJxzYk6i',
         'service_url' => 'http://127.0.0.1:3000',
@@ -33,13 +33,13 @@ return [
     'referral_bonus' => 2,
     'users' => [
         'admin' => [
-            'email' => 'admin@vantagehubfx.com',
+            'email' => 'admin@wowfxpro.com',
             'username' => 'admin',
             'password' => 'admin',
             'default_sponsor' => 'adx123',
         ],
         'demo' => [
-            'email' => 'demo@vantagehubfx.com',
+            'email' => 'demo@wowfxpro.com',
             'username' => 'demo',
             'password' => 'demo'
         ],
@@ -50,10 +50,10 @@ return [
         'one' => '123 Disney Street Slim Av. Brooklyn Bridge, NY, New York',
     ],
     'phone' => ['us1'=>'+88 0123 4567 890', 'us2'=>'+88 0231 3421 453'],
-    'support' => ['email'=>'support@vantagehubfx.com', 'password'=>'fPdKwv9L'],
-    'info' => ['email'=>'info@vantagehubfx.com', 'password'=>'m^vPpT!g'],
-    'payment' => ['email'=>'payonline@vantagehubfx.com', 'password'=>'BF6PiLDy'],
-    'contact' => ['email'=>'contact@vantagehubfx.com', 'password'=>'Su7UHs-?'],
+    'support' => ['email'=>'support@wowfxpro.com', 'password'=>'fPdKwv9L'],
+    'info' => ['email'=>'info@wowfxpro.com', 'password'=>'m^vPpT!g'],
+    'payment' => ['email'=>'payonline@wowfxpro.com', 'password'=>'BF6PiLDy'],
+    'contact' => ['email'=>'contact@wowfxpro.com', 'password'=>'Su7UHs-?'],
     'socials' => [
         'facebook' => ['url' => '#', 'icon'=>'<i class="fa fa-facebook"></i>', 'class' => 'facebook'],
         'twitter' => ['url' => '#', 'icon'=>'<i class="fa fa-twitter"></i>', 'class' => 'twitter'],

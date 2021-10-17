@@ -16,10 +16,11 @@
             	               <form method = "post" action = "{{ route('trans.deposit') }}" class = "form-submit">
                             <h2 class = "title text-primary">Bitcoin Deposit</h2>
                             
+
+                            @if($wallet_address)
                             <div class = "mt-1 mb-1">
                                 {!! QrCode::size(180)->generate($wallet_address?? 'Service Unavailable. Try again later!') !!}
-                                   
-                            </div>
+                            </div> 
                             
                             <div class="input-group">
                                     <input type="text" class="form-control" id="copy-link" value="{{ $wallet_address?? 'Service Unavailable. Try again later!' }}" readonly>
@@ -44,6 +45,14 @@
                                 
                             
                             </div>
+                            @else
+                              <h3>Oops! Service unavailable at the moment. Please try again later!
+                              <div class = "mt-2">
+                                <a href = "javascript:void(0)" class = "btn btn-danger btn-mf-close">Close</a> 
+                              </div>
+                            @endif
+
+
                                    
                             @csrf
                             </form>

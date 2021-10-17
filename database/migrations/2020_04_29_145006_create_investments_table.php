@@ -24,7 +24,10 @@ class CreateInvestmentsTable extends Migration
             $table->float('temp_earning')->default(0);
             $table->string('status')->default('pending');
             $table->longText('description')->nullable();
-            $table->timestamps();
+            
+            $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
+   
             
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
             

@@ -111,7 +111,15 @@
                    <span class="menu-title"> All Registered Users</span>
                 </a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('admin.payment.requests') }}">
+                  <i class="fa fa-history mr-2"></i>
+                   <span class="menu-title"> Payment Requests</span>
+                </a>
+              </li>
                 
+
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('admin.requests') }}">
                   <i class="fa fa-history mr-2"></i>

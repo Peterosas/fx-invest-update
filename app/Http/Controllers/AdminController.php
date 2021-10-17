@@ -10,6 +10,7 @@ use App\Package;
 use App\User;
 use App\Transaction;
 use App\SiteSettings;
+use App\WalletAddress;
 use Illuminate\Support\Facades\Hash;
 
 
@@ -36,7 +37,67 @@ class AdminController extends Controller
         
         return view('backend.admin.users', compact('users'));
     }
+
+    public function fund_wallet(Request $request) {
+
+    }
     
+    public function get_payments(Request $request) {
+        $payments = WalletAddress::where('status', 'pending')->get();
+     
+        return view('backend.admin.payments', compact('payments'));
+    }
+    public function approve_payment($id, $amount = 0) {
+
+        if (!$id or !$amount or !is_numeric($amount) or $amount <= 0) {
+            return redirect()
+            ->back()
+            ->with('error', 'Please provide a valid amount');
+        }
+
+        $address = WalletAddress::where('status', 'pending')->where('id', $id)->first();
+
+        if ($address) {
+
+            $user = $address->user;
+
+            $trans_data = [
+                'user_id' => $user->id,
+                'trans_type' => 'deposit',
+                'trans_code' => User::generateRefId(),
+                'to_address' => $address->address,
+                'amount' => $amount,
+                'old_balance' => $user->total_amount,
+                'new_balance' => $user->total_amount + $amount,
+                'status' => 'completed',
+                'description' => 'Wallet funding'
+            ];
+
+            Transaction::insert($trans_data);
+
+            //Update balance
+            $user = $address->user;
+            $user->total_amount += $amount;
+            $user->save();
+
+            //Update wallet address status
+            $address->used = true;
+            $address->status = "completed";
+            $address->save();
+
+            return redirect()
+                    ->back()
+                    ->with('success', 'Payment approval was successful!');
+        }
+
+        return redirect()
+                ->back()
+                ->with('error', 'Failed to process payment. Please try again later!');
+
+    }
+    public function decline_payment($id) {
+
+    }
     public function site_settings(Request $request)
     {
         $site_settings = SiteSettings::first();

@@ -355,6 +355,22 @@
             alertify.alert("Coming soon...");
             e.preventDefault();
         });
+
+        function updateDepositAmount(amount, id) {
+            var action = $('#action_' + id);
+            //Normalize url
+
+            var href = action[0].href;
+
+            var endIndex = href.indexOf('approve');
+            var substr = href.substring(0, endIndex);
+
+            href = substr + "approve/" + id;
+            
+            action[0].href = href + "/" + amount
+
+            console.log(action[0].href);
+        }
     </script>
 
     

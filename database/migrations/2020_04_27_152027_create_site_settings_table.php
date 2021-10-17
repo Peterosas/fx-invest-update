@@ -29,7 +29,9 @@ class CreateSiteSettingsTable extends Migration
             $table->string('info_password')->nullable();
             $table->string('admin_role')->default(config('company.roles.admin.role'));
             $table->string('user_role')->default(config('company.roles.user.role'));
-            $table->timestamps();
+            $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
+   
             
         });
     }

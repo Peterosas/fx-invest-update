@@ -6,6 +6,7 @@ use Illuminate\Validation\Rule;
 use Illuminate\Http\Request;
 use App\Rules\ValidateTransactionHashId;
 use App\Transaction;
+use App\WalletAddressPool;
 use App\WalletAddress;
 use App\User;
 use Session;
@@ -87,28 +88,29 @@ class TransactionController extends Controller
     {
            
         $me = \Auth::user();
-        $wallet_address_obj = $me->wallet_address();
         
-        if($wallet_address_obj->address)
-        {
-            $kxwallet_address = $wallet_address_obj->address;
+        $pool = WalletAddressPool::where('used', false)->first();
+
+        if ($pool) {
+
+            $wallet_address = $pool->wallet_address;
+
+            //Mark wallet address as used
+            $pool->used = true;
+            $pool->save();
+
+            //Create payment request
+            $payment = [
+                'user_id' => $me->id,
+                'address' => $wallet_address,
+                'used' => true
+            ];
+
+            WalletAddress::insert($payment);
         }
         else {
-            $kxwallet_address = generateUniqueWalletAddress();
-            
-            if ($kxwallet_address) {
-                $wallet_address_obj->address = $kxwallet_address;
-                $wallet_address_obj->user_id = $me->id;
-                $wallet_address_obj->save();
-            }
-            else {
-                $kxwallet_address = null;
-            }
-            
-        } 
-        
-        $wallet_address = $kxwallet_address;
-        
+            $wallet_address = null;
+        }
         
         if ($request->ajax()) {
             return view('backend.transactions.partials.deposit', compact('wallet_address'));
