@@ -1,3 +1,4 @@
+
 <div class = "row">
             <div class="col-12">
 			<div class="card">
@@ -8,6 +9,22 @@
 				</div>
 				<div class="card-body">
                     
+				<div class = "row">
+					<div class = "col-md-8 offset-md-2">
+						<form method = "get" action="{{route('admin.payment.address.add')}}">
+							<div class = "row">
+								<div class ="col-sm-6 px-0">
+									<textarea name="d" width="100%" class="form-control" placeholder="Past wallet address here"></textarea>
+								</div>
+								<div class="col-sm-6 px-2">
+									<button type = "submit" class="btn btn-success">Add Deposit Address</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<hr /><br /><br />
+
 					<div class="table-responsive">
 						<table class="table table-bordered no-margin admin-table">
 						  <thead>					

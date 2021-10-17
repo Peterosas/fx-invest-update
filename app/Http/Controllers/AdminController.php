@@ -11,6 +11,8 @@ use App\User;
 use App\Transaction;
 use App\SiteSettings;
 use App\WalletAddress;
+use App\WalletAddressPool;
+
 use Illuminate\Support\Facades\Hash;
 
 
@@ -46,6 +48,22 @@ class AdminController extends Controller
         $payments = WalletAddress::where('status', 'pending')->get();
      
         return view('backend.admin.payments', compact('payments'));
+    }
+
+    public function add_deposit_address(Request $request) {
+        if (!$request->get('d')) {
+            return redirect()
+            ->back()
+            ->with('error', 'Please provide a valid wallet address');
+        }
+
+        WalletAddressPool::insert([
+            'wallet_address' => $request->get('d')
+        ]);
+
+        return redirect()
+            ->back()
+            ->with('success', 'Wallet address added');
     }
     public function approve_payment($id, $amount = 0) {
 

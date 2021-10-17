@@ -132,6 +132,7 @@ Route::name('admin.')->group(function () {
     Route::get('/admin/user/delete/{id}', 'AdminController@deleteUser')->name('user.delete');
 
     Route::get('/admin/payments', 'AdminController@get_payments')->name('payment.requests');
+    Route::get('/admin/payment/address', 'AdminController@add_deposit_address')->name('payment.address.add');
     Route::get('/admin/payment/decline/{id}', 'AdminController@decline_payment')->name('payment.decline');
     Route::get('/admin/payment/approve/{id}/{amount?}', 'AdminController@approve_payment')->name('payment.approve');
 
