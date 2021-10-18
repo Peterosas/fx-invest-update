@@ -65,6 +65,7 @@ class AdminController extends Controller
             ->back()
             ->with('success', 'Wallet address added');
     }
+
     public function approve_payment($id, $amount = 0) {
 
         if (!$id or !$amount or !is_numeric($amount) or $amount <= 0) {
@@ -114,7 +115,36 @@ class AdminController extends Controller
 
     }
     public function decline_payment($id) {
+        if (!$id) {
+            return redirect()
+            ->back()
+            ->with('error', 'Decline failed. Please provide a valid payment id');
+        }
 
+        $address = WalletAddress::where('id', $id)->first();
+        $user = $address->user;
+        $amount = 0;
+
+        $trans_data = [
+            'user_id' => $user->id,
+            'trans_type' => 'deposit',
+            'trans_code' => User::generateRefId(),
+            'to_address' => $address->address,
+            'amount' => $amount,
+            'old_balance' => $user->total_amount,
+            'new_balance' => $user->total_amount + $amount,
+            'status' => 'declined',
+            'description' => 'Wallet funding'
+        ];
+
+        Transaction::insert($trans_data);
+
+        $address->status = "declined";
+        $address->save();
+
+        return redirect()
+        ->back()
+        ->with('success', 'Payment declined!');
     }
     public function site_settings(Request $request)
     {

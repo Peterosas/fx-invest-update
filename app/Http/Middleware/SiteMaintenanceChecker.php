@@ -15,8 +15,8 @@ class SiteMaintenanceChecker
      */
     public function handle($request, Closure $next)
     {
-        if ($request->user() && config('app.maintenance_mode') == true && ($request->path() != 'maintenance' && $request->path() != 'logout')) 
-            return redirect('maintenance');
+        //if ($request->user() && config('app.maintenance_mode') == true && ($request->path() != 'maintenance' && $request->path() != 'logout')) 
+         //   return redirect('maintenance');
         return $next($request);
     }
 }
