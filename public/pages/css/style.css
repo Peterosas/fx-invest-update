@@ -1422,22 +1422,25 @@ h3 {
   background-color: #172331b7;
   height: 100%;
   padding: 2rem;
-  margin-left: 5rem;
   text-shadow: rgb(23, 35, 49);
+
 }
 
 .hero-inner .title {
   color: #d4e20c !important;
-  letter-spacing: 2px;
-  font-size: 30px;
+  letter-spacing: 6px;
+  font-size: 24px;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   line-height: 2.5rem;
 }
 
 .hero-inner .sub-title {
-  font-size: 20px;
+  font-size: 16px;
   color: #ebebee;
+  word-spacing: 2px;
+  line-height: 24px;
+  font-weight: 400;
 }
 /* line 195, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
 .gj-picker-md div[role="navigator"] {

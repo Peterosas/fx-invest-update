@@ -2,9 +2,10 @@
     <div class="hero-area">
       <div class = "hero-inner">
         <div class = "row">
-          <div class = "col-sm-8 offset-sm-2 text-center">
-            <h1 class = "title">Instant access to investing, anytime and anywhere</h1>
-            <h4 class = "sub-title">Investing has never been easier. Everything you are looking for in an ultimate investment platform — on the device of your choice.</h4>
+          <div class = "text-center">
+            <h3 class = "title">Instant access to investing, anytime and anywhere</h3>
+            <h6 class = "sub-title">Investing has never been easier. Everything you are looking for 
+              in an ultimate investment platform — on the device of your choice.</h6>
           </div>
         </div>
       </div>
