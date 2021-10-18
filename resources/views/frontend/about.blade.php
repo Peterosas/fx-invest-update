@@ -16,20 +16,20 @@
                         <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
                             <h3>Who are we?</h3>
                         </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s"><a href = "index.html" class = "site-name">Vantagehubfx</a> is legally registered with all the relevant authorities as an online investing firm, which its focus is using the current forex and binary option market to generate a huge profit for our clients.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s"><a href = "index.html" class = "site-name">wowfxpro</a> is legally registered with all the relevant authorities as an online investing firm, which its focus is using the current forex and binary option market to generate a huge profit for our clients.</p>
                         <br />
 
                         <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
                             <h3>Our Vision</h3>
                         </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s"><a href = "index.html" class = "site-name">Vantagehubfx</a> is the leader in supporting individuals who desire greater success in <strong>Forex Trading</strong> and <strong>Binary Option</strong>, more profitable companies and the ability to contribute to the success of their finance.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s"><a href = "index.html" class = "site-name">wowfxpro</a> is the leader in supporting individuals who desire greater success in <strong>Forex Trading</strong> and <strong>Binary Option</strong>, more profitable companies and the ability to contribute to the success of their finance.</p>
 
                         <br />
 
                         <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
                             <h3>Our Aim</h3>
                         </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s"><a href = "index.html" class = "site-name">Vantagehubfx</a> is committed to providing a complete, balanced financial solution and building sound financial security to enable our clients to live and share their dreams with the next generation.
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s"><a href = "index.html" class = "site-name">wowfxpro</a> is committed to providing a complete, balanced financial solution and building sound financial security to enable our clients to live and share their dreams with the next generation.
 Meeting and exceeding client expectations is the basis of our success and our reputation. We’ve built our organization around our clients’ needs, focusing on what serves, not what sells, and demonstrating trust and integrity in every action we take on our clients’ behalf. These measures have led to the success that matters most to us: highly satisfied clients and enduring client relationships, across the World </p>
 
                         <br />

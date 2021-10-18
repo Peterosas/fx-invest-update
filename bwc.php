@@ -4,7 +4,7 @@
 
 CronJob program execution path
 
-/usr/local/php74/bin/php /home/dh_xipr34/vantagehubfx.com/bwc.php
+/usr/local/php74/bin/php /home/dh_xipr34/wowfxpro.com/bwc.php
 
 */
 
