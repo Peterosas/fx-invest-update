@@ -34,15 +34,19 @@
                                     </nav>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="col-xl-3 col-lg-3">
                                 <div class="Appointment">
-                                  <div class="d-none d-lg-block">
-                                      <a class="boxed-btn4" href="{{ route('register') }}">Get Started</a>
+                                  <div>
+                                      <a class="boxed-btn" href="{{ route('login') }}">Sign In</a>
+                                  </div>
+                                  <div class="ml-2">
+                                      <a class="boxed-btn" href="{{ route('register') }}">Sign Up</a>
                                   </div>
                                 </div>
                             </div>
+                           
                             <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
+                                <div class="mobile_menu d-block d-lg-none" style="margin-top: -5rem"></div>
                             </div>
                         </div>
                     </div>

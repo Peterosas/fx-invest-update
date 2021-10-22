@@ -11,8 +11,9 @@
                         <br />
                         {{ $package->description }}  
                     </p>
+                    <a class="boxed-btn4" href="{{ route('login') }}">Get Started</a>
                 </div>
-               
+
                 @endforeach
 
             </div>
